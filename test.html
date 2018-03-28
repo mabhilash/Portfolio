@@ -1,0 +1,100 @@
+
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+
+  	<title>Portfolio site</title>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="js/jquery-3.2.0.min">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+    <header>Portifolio Site Design</header>
+    <br>
+    <div class="container">
+      <section id="titleSection">
+       <div class="row">
+        <div class="col-md-4 logo" >
+          <img src="images/udacity.png" alt="Udacity logo">
+        </div>
+        <div class="col-md-8 text-uppercase name">
+          <h1 class="title-super text-thin">Abhilash Mu</h1>
+          <h4>Front-end Ninja</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="featureSection">
+    <br>
+      <div class="row">
+       <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+     <p>The project is building a portfolio website as per the mockup design provided. This page is a responsive webpage
+      that will display images, descriptions and links to each of the portfolio projects as part
+      of the nanodegree program.
+    </p>   
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+       <img class="img-responsive" src= "images/phone.jpg" alt="Phone image">
+     </div>
+   </div>
+  </section>
+  <br>  
+  <div class="row">
+  	<div class="col-md-12">
+    <h2 class="text-muted">Featured work</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <img class="img-responsive" src= "images/dog_1.jpg" alt="puppy" data-toggle= "modal" data-target= "#project1">
+      <h3>PUPPY</h3>
+      <p><a href="http://github.com" data-toggle= "modal" data-target= "#project1">LINK</a></p></div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img class="img-responsive" src="images/dog_2.jpg" alt="pug">
+          <h3>PUG</h3>
+          <p><a href="http://github.com" data-toggle= "modal" data-target= "#project1">LINK</a></p></div>
+        </div>
+        <div class="col-md-4">
+         <div class="thumbnail">
+           <img class="img-responsive" src="images/dog_3.jpg" alt="labrador">
+           <h3>LABRADOR</h3>
+           <p><a href="http://github.com" data-toggle= "modal" data-target= "#project1">LINK</a></p></div>
+         </div>        
+       </div>
+     </div>
+     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Information</h4>
+          </div>
+          <div class="modal-body">
+            <h4>In this project, I have applied the concepts of responsive design, responsive images bootstrap, HTML, CSS learnt as partof the course.</h4>
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>Copyright Abhilash M</footer>
+  </body>
+  </html>
